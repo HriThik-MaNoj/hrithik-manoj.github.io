@@ -1,8 +1,7 @@
-/* Global styles */
 body {
     font-family: 'Roboto', sans-serif;
-    background-color: #f7f7f7; /* Adjust background color */
-    color: #333; /* Adjust text color */
+    background-color: #333;
+    color: #f7f7f7;
 }
 
 .container {
@@ -12,28 +11,28 @@ body {
 }
 
 header {
-    background-color: #1e1e1e; /* Adjust header background color */
-    color: #fff; /* Adjust header text color */
-    padding: 80px 0; /* Increase padding for header */
+    background-color: #333;
+    color: #f7f7f7;
+    padding: 80px 0;
     text-align: center;
-    display: flex; /* Use flexbox for layout */
-    flex-direction: column; /* Align items vertically */
-    align-items: center; /* Center items horizontally */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 header h1 {
-    font-size: 4em; /* Increase font size for header */
-    margin-bottom: 10px; /* Reduce margin */
+    font-size: 4em;
+    margin-bottom: 10px;
 }
 
 header p {
-    font-size: 1.8em; /* Increase font size for header paragraph */
+    font-size: 1.8em;
     font-weight: 300;
-    margin-bottom: 20px; /* Add some spacing */
+    margin-bottom: 20px;
 }
 
 header .btn-container {
-    margin-top: 30px; /* Add margin to separate buttons */
+    margin-top: 30px;
 }
 
 header .btn-container .btn {
@@ -52,7 +51,6 @@ header .btn-container .btn:hover {
     background-color: #2980b9;
 }
 
-
 header img {
     border-radius: 70%;
     margin-top: 50px;
@@ -64,7 +62,9 @@ header img {
 .skills,
 .portfolio,
 .contact {
-    padding: 80px 0; /* Increase padding for sections */
+    background-color: #1e1e1e;
+    color: #f7f7f7;
+    padding: 80px 0;
     text-align: center;
 }
 
@@ -72,7 +72,7 @@ header img {
 .skills h2,
 .portfolio h2,
 .contact h2 {
-    font-size: 3em; /* Increase font size for section headings */
+    font-size: 3em;
     margin-bottom: 40px;
 }
 
@@ -80,7 +80,7 @@ header img {
 .skills ul,
 .portfolio .project p,
 .contact form {
-    font-size: 1.5em; /* Adjust font size for section content */
+    font-size: 1.5em;
     line-height: 1.8;
     margin-bottom: 40px;
 }
@@ -92,8 +92,8 @@ header img {
 
 .skills li {
     display: inline-block;
-    background-color: #333; /* Adjust background color for skills items */
-    color: #fff;
+    background-color: #333;
+    color: #f7f7f7;
     padding: 15px 30px;
     border-radius: 30px;
     margin: 0 20px 20px 0;
@@ -118,7 +118,7 @@ header img {
 }
 
 .contact {
-    background-color: #2c3e50; /* Adjust background color for contact section */
+    background-color: #2c3e50;
     color: #fff;
 }
 
@@ -140,14 +140,14 @@ header img {
 .contact form {
     max-width: 600px;
     margin: auto;
-    padding: 60px; /* Increase padding for contact form */
+    padding: 60px;
     border-radius: 20px;
     box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
 }
 
 .contact label {
     display: block;
-    font-size: 1.4em; /* Increase font size for contact form labels */
+    font-size: 1.4em;
     margin-bottom: 30px;
     color: #fff;
 }
@@ -155,7 +155,7 @@ header img {
 .contact input,
 .contact textarea {
     width: 100%;
-    padding: 20px; /* Increase padding for input fields */
+    padding: 20px;
     margin-bottom: 40px;
     border: none;
     border-radius: 10px;
@@ -173,7 +173,7 @@ header img {
     background-color: #3498db;
     color: #fff;
     border: none;
-    padding: 20px 40px; /* Increase padding for button */
+    padding: 20px 40px;
     border-radius: 10px;
     font-size: 1.2em;
     cursor: pointer;
@@ -186,21 +186,21 @@ header img {
 
 .top-right {
     position: fixed;
-    top: 20px; /* Adjust top position */
-    right: 20px; /* Adjust right position */
+    top: 20px;
+    right: 20px;
     display: flex;
-    flex-direction: row; /* Align buttons horizontally */
-    align-items: center; /* Align buttons vertically */
-    z-index: 1000; /* Ensure the buttons are above other elements */
+    flex-direction: row;
+    align-items: center;
+    z-index: 1000;
 }
 
 .top-right button {
-    margin-left: 10px; /* Adjust margin between buttons */
-    padding: 12px 24px; /* Adjust padding for larger buttons */
-    font-size: 1em; /* Adjust font size for larger buttons */
-    border-radius: 20px; /* Add border radius */
-    border: 2px solid #fff; /* Add border */
-    background: transparent; /* Transparent background */
+    margin-left: 10px;
+    padding: 12px 24px;
+    font-size: 1em;
+    border-radius: 20px;
+    border: 2px solid #fff;
+    background: transparent;
     color: #fff;
-    transition: all 0.
-
+    transition: all 0.3s ease;
+}
